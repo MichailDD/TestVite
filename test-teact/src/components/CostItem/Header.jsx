@@ -7,8 +7,6 @@ const Header = (props) => {
             <div>
                 <div className={s.data}>
                     <div>{props.date.toLocaleString("ru-RU")}</div>
-                    <div>year</div>
-                    <div>day</div>
                 </div>
             </div>
             <div className={s.blok}>
